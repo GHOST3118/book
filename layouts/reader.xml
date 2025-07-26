@@ -1,0 +1,14 @@
+<panel id="reader" size="400">
+    <container size="400,600" color="252,255,212,255">
+        <label
+            id="reader_text"
+            margin="5,5,5,5"
+            multiline="true"
+            color="0,0,0,255"
+            markup="md"
+            text-wrap="true"
+            size="390,590"
+            gravity="center-center"
+        />
+    </container>
+</panel>

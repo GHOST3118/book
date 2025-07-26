@@ -1,0 +1,32 @@
+<panel id="writer" size="400">
+    <container size="400,30" color="252,255,212,255">
+        <textbox
+            id="writer_title"
+            margin="5,5,5,5"
+            color="0,0,0,0"
+            focused-color="0,0,0,0"
+            text-color="0,0,0,255"
+            markup="md"
+            size="390,20"
+            gravity="center-center"
+        ></textbox>
+    </container>
+    
+    <container size="400,600" color="252,255,212,255">
+        <textbox
+            id="writer_text"
+            margin="5,5,5,5"
+            multiline="true"
+            color="0,0,0,0"
+            text-color="0,0,0,255"
+            markup="md"
+            text-wrap="true"
+            size="390,590"
+            gravity="center-center"
+        ></textbox>
+    </container>
+
+    <button size="400,40" tooltip="@[#ff0000]Make this note non-editable" onclick="sign()">
+        @Save and Lock
+    </button>
+</panel>
